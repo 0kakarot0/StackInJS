@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undo Redo Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .stack-buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Undo Redo Example</h2>
+        <textarea id="description" rows="10" cols="50"></textarea>
+        <div class="stack-buttons">
+            <button id="undoButton">Undo</button>
+            <button id="redoButton">Redo</button>
+        </div>
+    </div>
+
+    <!-- Import script.js using ES6 module syntax -->
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
